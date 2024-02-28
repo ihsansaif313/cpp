@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-    int num;
+    unsigned long long num;
     cout<<"enter value"<<endl;
     cin>>num;
-    int factorial=1;
+    unsigned long long factorial=1;
     for (int i = 1; i <= num; i++)
     {
         factorial=factorial*i;
