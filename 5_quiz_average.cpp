@@ -3,23 +3,24 @@ using namespace std;
  
 int main()
 {
-int arr[10][5];
-for (int i = 0; i < 10; i++)
+int arr[4][3];
+for (int i = 0; i < 4; i++)
 {
-  for (int j = 0; j < 5; j++)
+  for (int j = 0; j < 3; j++)
   {
     cout<<"Enter the marks of student "<<i+1<<" of quiz "<<j+1<<" : ";
     cin>>arr[i][j];
   }
 }
-int average=0;
-for (int i = 0; i < 10; i++)
+
+for (int i = 0; i < 4; i++)
 {
-    for (int j = 0; j < 5; j++)
+  int average=0;
+    for (int j = 0; j < 3; j++)
     {
         average += arr[i][j];
     }
-    cout<<"Average marks of student "<<i+1<<" is : "<<average/5<<endl;
+    cout<<"Average marks of student "<<i+1<<" is : "<<average/3<<endl;
 
 }
 
